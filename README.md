@@ -1,48 +1,65 @@
-# Project Title
+# Laravel Api Test
 
-One Paragraph of project description goes here
+Download this packge to test API CRUD for any Front End Frameworks
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Clone or Dowload the package and serve using artisan command
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+php 5 or Higher
+Composer 
+Laravel installed
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Here is the Steps for deploying it to server or local
+Fill your env as per your Database Config 
+```
+Git clone https://github.com/alshoja/laravelApiTest.git
+composer install
 
 ```
-Give the example
-```
 
-And repeat
+And then
 
 ```
-until finished
+php artisan migrate
+php artisan passport:install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## Running the Api tests on routes on local
 
-### Break down into end to end tests
+## Post 
+http://localhost:8000/api/register
+## Post
+http://localhost:8000/api/login
+## Get
+http://localhost:8000/api/users
+## Put
+http://localhost:8000/api/user/id
+## Delete
+http://localhost:8000/api/user/id
 
-Explain what these tests test and why
+### Running the Api tests on routes on Live
 
-```
-Give an example
-```
+## Post 
+http://YOUR_Domain/api/public/register
+## Post
+http://YOUR_Domain/api/public/login
+## Get
+http://YOUR_Domain/api/public/users
+## Put
+http://YOUR_Domain/api/public/user/id
+## Delete
+http://YOUR_Domain/api/public/user/id
+
 
 ### And coding style tests
 
