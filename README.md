@@ -42,6 +42,8 @@ http://localhost:8000/api/register
 http://localhost:8000/api/login
 ## Get
 http://localhost:8000/api/users
+## Get
+http://localhost:8000/api/user/id
 ## Put
 http://localhost:8000/api/user/id
 ## Delete
@@ -55,6 +57,8 @@ http://laravel.technalatus.com/public/api/register
 http://laravel.technalatus.com/public/api/login
 ## Get
 http://laravel.technalatus.com/public/api/users
+## Get
+http://laravel.technalatus.com/public/api/user/id
 ## Put
 http://laravel.technalatus.com/public/api/user/id
 ## Delete
