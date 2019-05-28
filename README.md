@@ -50,15 +50,15 @@ http://localhost:8000/api/user/id
 ### Running the Api tests on routes on Live
 
 ## Post 
-http://laravel.technalatus.com/api/public/register
+http://laravel.technalatus.com/public/api/register
 ## Post
-http://laravel.technalatus.com/api/public/login
+http://laravel.technalatus.com/public/api/login
 ## Get
-http://laravel.technalatus.com/api/public/users
+http://laravel.technalatus.com/public/api/users
 ## Put
-http://laravel.technalatus.com/public/user/id
+http://laravel.technalatus.com/public/api/user/id
 ## Delete
-http://laravel.technalatus.com/public/user/id
+http://laravel.technalatus.com/public/api/user/id
 
 
 
