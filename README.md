@@ -50,7 +50,7 @@ http://localhost:8000/api/user/id
 ### Running the Api tests on routes on Live
 
 ## Post 
-http://http://laravel.technalatus.com/api/public/register
+http://laravel.technalatus.com/api/public/register
 ## Post
 http://laravel.technalatus.com/api/public/login
 ## Get
