@@ -4,7 +4,7 @@ Download this packge to test API CRUD for any Front End Frameworks
 
 ## Getting Started
 
-Clone or Dowload the package and serve using artisan command
+Clone or Download the package
 
 ### Prerequisites
 
