@@ -34,9 +34,8 @@ class UsersController extends Controller
      */
     public function index()
     {
-       $user = User::all();
+       $user = User::with('posts','posts.comments','posts.comments.subcomments')->get();
        return response()->json($user);
-
     }
 
     /**
