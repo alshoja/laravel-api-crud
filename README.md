@@ -8,12 +8,10 @@ Clone or Download the package
 
 ### Prerequisites
 
-PHP 5 or Higher
-```
-Composer 
-Laravel installed
+* PHP 5 or Higher
+* Latest Composer 
+* Laravel installed Machine
 
-```
 
 ### Installing
 
