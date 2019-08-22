@@ -19,14 +19,28 @@ Here is the Steps for deploying it to server or local
 Fill your env as per your Database Config 
 ```
 Git clone https://github.com/alshoja/laravelApiTest.git
-composer install
-
 ```
+```
+composer install
+```
+```
+cp .env.example .env
+```
+    
+2.Update the Env
+
+	DB_DATABASE=''
+    DB_USERNAME=''
+    DB_PASSWORD=''
+    
+3.Migrate and Seed the database
+
+    php artisan migrate --seed
+
 
 And then
 
 ```
-php artisan migrate
 php artisan passport:install
 ```
 
