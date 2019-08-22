@@ -18,7 +18,7 @@ Clone or Download the package
 Here is the Steps for deploying it to server or local
 Fill your env as per your Database Config 
 ```
-Git clone https://github.com/alshoja/laravelApiTest.git
+git clone https://github.com/alshoja/laravelApiTest.git
 ```
 ```
 composer install
